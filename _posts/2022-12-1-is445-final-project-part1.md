@@ -24,13 +24,3 @@ In this visualization, we used bar chart to show the highest temerature distribu
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/dashboard_temperature.json" style="width: 100%"></vegachart>
 We also followed the instructions from week 11 class and linked these two visualizations. We added brush selection to the heatmap on the left to select the sector that we wanted to show in the histogram on the right. The interactions worked OK but the tooltip in the histogram seemed not working. If we had more time, we would want to fix this issue and explore more interactions in vega lite and altair.
-
-<!-- these are written in a combo of html and liquid -->
-
-<div class="left">
-{% include elements/button.html link="https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_bcubcg_fall2022/main/data/bfro_reports_fall2022.csv" text="The Data" %}
-</div>
-
-<div class="right">
-{% include elements/button.html link="https://github.com/DaBaLxx/DaBaLxx.github.io/blob/main/python_notebooks/group-22-assignment-10.ipynb" text="The Analysis" %}
-</div>
