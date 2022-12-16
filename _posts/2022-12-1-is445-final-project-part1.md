@@ -12,7 +12,7 @@ custom_js:
 
 ### Group 14
 
-Xinyuan (Shawn) Chen, 
+Shawn Chen, Priyanka Dewani, Faiz Mohammed Faiz, Sriram Padmachetty Harinath, Ori Shoffet
 
 <vegachart schema-url="https://github.com/DaBaLxx/DaBaLxx.github.io/blob/main/assets/json/rect_temperature.json" style="width: 100%"></vegachart>
 This visualization shows the distribution of temperature from 50 states of the US. X axis is the highest temerature record and the y axis are the states. The color from light green to dark blue in every block means the number of records in that specific range of temperature. As you can see, we used "rect" mark to visualize this dataset because we wanted to make it as a heatmap. We also chose "orangered" as our color scheme because by using this color scheme, we can feel a sense of heat.
